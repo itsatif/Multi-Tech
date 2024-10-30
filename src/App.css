@@ -1,0 +1,53 @@
+/* scroll bar modification */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+    background-color: rgb(60, 53, 53);
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+    background-color: #d1001c;
+    border-radius: 20px;
+    width: 5px;
+}
+
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scrolling-text {
+    display: inline-block;
+    animation: scroll-left 10s linear infinite;
+    display: flex;
+    align-items: center;
+}
+.scrolling-text:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(200%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+.whats-app {
+    position: fixed;
+    width: 100px;
+    /* height: 50px; */
+    bottom: 200px;
+    right: 15px;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index: 100;
+}

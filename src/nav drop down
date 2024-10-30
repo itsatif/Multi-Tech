@@ -1,0 +1,169 @@
+ <nav
+            style={{ backgroundColor: "#FAFCFF" }}
+            className="flex px-2 pt-8 pb-4   "
+          >
+            {!isOpen && (
+              <GiHamburgerMenu
+                className="text-black text-3xl ml-5 transition ease-in-out delay-150 transform duration-800 cursor-pointer "
+                onClick={handleToggle}
+              />
+            )}
+            {isOpen && (
+              <ImCross
+                className="text-black text-2xl ml-52 transition font-kepler ease-in-out delay-150 transform duration-800 cursor-pointer"
+                onClick={handleToggle}
+              />
+            )}
+          </nav>
+          {isOpen && (
+            <nav
+              style={{ backgroundColor: "#FAFCFF" }}
+              className="z-40 transition-all duration-300  delay-300 ease-in-out transform-translate-x-0 sm:translate-x-0 w-64 absolute left-0 h-auto pb-5 "
+            >
+              <ul className="flex flex-col justify-center z-5">
+                <div className=" text-2xl my-5 font-sans font-semibold flex  text-center justify-center">
+                  <h1 className="font-kepler italic">Categories</h1>
+                </div>
+                {/* <li className='relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-sans text-lg'>
+                                    <FaTools className='text-red-700 mx-2 text-lg' />
+                                    <NavLink to={"/handtools"}> Hand Tools</NavLink>
+                                </li>
+                                <li className='relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-sans text-lg'>
+                                    <FaTools className='text-red-700 mx-2 text-lg' />
+                                    <NavLink to={"/gardentools"} > Gardentool</NavLink>
+                                </li> */}
+                <NavLink
+                  font-keplar
+                  to={"/wirestriper"}
+                  className="relative group"
+                >
+                  <li className="py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Wire Striper
+                    <div className="absolute left-full top-0 bg-gray-200 py-2 px-3 rounded opacity-0 group-hover:opacity-100">
+                      {/* Dropdown content goes here */}
+                      <ul className="">
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          2 IN 1WIRE STRIPPER & CUTTER{" "}
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          WIRE STRIPPER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          HEAVY DUTY WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          MEDIUM DUTY WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          HEAVY DUTY WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          SELF ADJUSTING WIRE STRIPPER & CUTTER WITH WIRE
+                          CRIMPER
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </NavLink>
+                <NavLink
+                  font-keplar
+                  to={"/wirestriper"}
+                  className="relative group"
+                >
+                  <li className="py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Screw Driver
+                    <div className="absolute left-full top-0 bg-gray-200 py-2 px-3 rounded opacity-0 group-hover:opacity-100">
+                      {/* Dropdown content goes here */}
+                      <ul className="">
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          2 IN 1WIRE STRIPPER & CUTTER{" "}
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          WIRE STRIPPER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          HEAVY DUTY WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          MEDIUM DUTY WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          HEAVY DUTY WIRE STRIPPER & CUTTER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          SELF ADJUSTING WIRE STRIPPER & CUTTER WITH WIRE
+                          CRIMPER
+                        </li>
+                        <li className="font-kepler text-xs text-gray-700 w-auto my-5 md:w-52 hover:bg-white hover-opacity-74 flex justify-between">
+                          SELF ADJUSTING WIRE STRIPPER & CUTTER WITH WIRE
+                          CRIMPER
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </NavLink>
+                <NavLink font-keplar to={"/wirestriper"}>
+                  <li className="relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Hex Keys
+                  </li>
+                </NavLink>
+                <NavLink font-keplar to={"/gardentools"}>
+                  <li className="relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Garden and Agro Tools
+                  </li>
+                </NavLink>
+                <NavLink font-keplar to={"/wirestriper"}>
+                  <li className="relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Stainless Steel Tools
+                  </li>
+                </NavLink>
+                <NavLink font-keplar to={"/wirestriper"}>
+                  <li className="relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Nipper and Flash Cutters
+                  </li>
+                </NavLink>
+                <NavLink font-keplar to={"/wirestriper"}>
+                  <li className="relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Pliers and Nose Pliers
+                  </li>
+                </NavLink>
+                <NavLink font-keplar to={"/wirestriper"}>
+                  <li className="relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Cable Cutters
+                  </li>
+                </NavLink>
+                <NavLink font-keplar to={"/wirestriper"}>
+                  <li className="relative group py-3 px-3 hover:bg-gray-200 flex items-center font-semibold font-kepler text-medium text-gray-700">
+                    <FaTools className="text-red-700 mx-2 text-lg" />
+                    Misc Tools
+                  </li>
+                </NavLink>
+              </ul>
+            </nav>
+          )}

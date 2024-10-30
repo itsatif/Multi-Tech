@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --primary: #D1012B;
+    --secondary: #eab308;
+}
+
+.about-card {
+    -webkit-transform: perspective(900px);
+    -webkit-transform-style: preserve-3d;
+}
+
+.card1 {
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    background: linear-gradient(#D1012B, #eab308);
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card1:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card1 .about-card-img {
+    transform: translateY(18px);
+    width: 400px;
+    height: 150px;
+}
+
+/* cards */
+
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #d83636; */
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background-color: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.container .card:hover {
+    height: 320px;
+}
+
+
+.container .card .image {
+    position: relative;
+    width: 260px;
+    height: 260px;
+
+    top: -40%;
+    left: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.container .card .image {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.container .card .content {
+    position: relative;
+    top: -140px;
+    padding: 10px 15px;
+    color: #111;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+}
+
+.container .card:hover .content {
+    margin-top: 30px;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+
+}
+/* product cataloge */
+.product-item .productimg {
+    transition: .5s;
+
+
+}
+
+/* .product-item {
+    border-radius: 15px 0 15px
+} */
+
+.product-item:hover .productimg  {
+    transform: scale(1.2);
+}
