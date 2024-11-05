@@ -260,7 +260,7 @@ const Home = () => {
               <NavLink to="/quickfix-multitools">
                 <img
                   className=" h-[180px] object-contain block productimg hover:opacity-75"
-                  src="images/quickfix-multitools.jpeg"
+                  src="images/mts-cover.jpeg"
                   alt=""
                 />
               </NavLink>

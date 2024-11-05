@@ -323,7 +323,7 @@ Industries from Gurgaon, Haryana, India."
                 <NavLink to="/quickfix-multitools">
                   <img
                     className=" h-[180px] object-contain block productimg hover:opacity-75"
-                    src="image/quickfix-multitools.jpeg"
+                    src="image/mts-cover.jpeg"
                     alt="Quick-fix Multi-tool"
                   />
                 </NavLink>

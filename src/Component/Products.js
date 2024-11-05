@@ -1128,7 +1128,7 @@ export const Products = [
     category: "Quick-fix Multi-tool",
     modelno: "MTS 101",
     headname: "Quick-fix Multi-tool",
-    URL: "quickfix-multitools.jpeg",
+    URL: "mts-cover.jpeg",
     features: "1.Designed to neatly clean and straighten lawn edges.",
     features1: "2.Serrated pronounced edge for eﬀortless working.",
   },
@@ -1140,7 +1140,7 @@ export const Products = [
     category: "Quick-fix Multi-tool",
     modelno: "MTS 102",
     headname: "Quick-fix Multi-tool",
-    URL: "quickfix-multitools.jpeg",
+    URL: "mts-cover.jpeg",
     features: "1. Handy tool for Weeding,Hoeing and make trenches.",
     features1:
       "2. Suitable in gardens, fields in and around bushy shrubs and plants.",
