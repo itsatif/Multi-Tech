@@ -95,6 +95,12 @@ const Nav = () => {
                   Garden & Agro Tools
                 </NavLink>
                 <NavLink
+                  to={"/quickfix-multitools"}
+                  className="block px-4 py-4 bg-[whitesmoke] text-sm font-kepler text-gray-600 hover:bg-gray-200 border-b-2"
+                >
+                  Quick-fix Multi-tool
+                </NavLink>
+                <NavLink
                   to={"/stainlesssteeltools"}
                   className="block px-4 py-4 bg-[whitesmoke] text-sm font-kepler text-gray-600 hover:bg-gray-200 border-b-2"
                 >
@@ -130,12 +136,6 @@ const Nav = () => {
                 >
                   Miscellaneous Tools
                 </NavLink>
-                <NavLink
-                  to={"/quickfix-multitools"}
-                  className="block px-4 py-4 bg-[whitesmoke] text-sm font-kepler text-gray-600 hover:bg-gray-200 border-b-2"
-                >
-                  Quick-fix Multi-tool
-                </NavLink>
               </div>
             </li>
             {/* <li className="text-medium px-5 font-kepler hover:border-b-2 delay-150  md:block hidden text-black">
@@ -158,7 +158,7 @@ const Nav = () => {
         <div className="md:flex hidden items-center justify-left p-1 shadow-inner">
           <h2 className="p-1 overflow-hidden hover:p-0 cursor-pointer rounded-full ease-in-out duration-200">
             <Link
-              to={"https://www.instagram.com/multitec_tools/"}
+              to={"https://www.instagram.com/multitectools_"}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -167,25 +167,25 @@ const Nav = () => {
           </h2>
           <h2 className="p-1 overflow-hidden hover:p-0 cursor-pointer rounded-full ease-in-out duration-200">
             <Link
-              to={"https://www.facebook.com/profile.php?id=100092582431921"}
+              to={"https://www.facebook.com/multitectools"}
               target="_blank"
               rel="noopener noreferrer"
             >
               <AiOutlineFacebook className=" text-xl rounded-full hover:text-2xl overflow-hidden text-blue-500 ease-in-out duration-200 text-black" />
             </Link>
           </h2>
-          <h2 className="p-1 overflow-hidden hover:p-0 cursor-pointer rounded-full ease-in-out duration-200">
-            <Link
-              to={"https://twitter.com/Multitecl"}
+          <h2 className="cursor-pointer rounded-full transition-all duration-200">
+            <a
+              href="https://x.com/Multitec_Tools"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiOutlineTwitter className="  text-xl rounded-full hover:text-2xl overflow-hidden text-blue-500 ease-in-out duration-200 text-black" />
-            </Link>
+              <span className="fa-brands fa-x text-xl hover:text-2xl text-black hover:text-blue-500 transition-all duration-200"></span>
+            </a>
           </h2>
           <h2 className="p-1 overflow-hidden hover:p-0 cursor-pointer rounded-full ease-in-out duration-200">
             <Link
-              to={"https://www.youtube.com/@multitecindustries"}
+              to={"https://www.youtube.com/@MultitecGardenTools"}
               target="_blank"
               rel="noopener noreferrer"
             >

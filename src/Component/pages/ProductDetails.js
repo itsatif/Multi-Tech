@@ -49,10 +49,6 @@ const ProductDetails = () => {
               <span className="block mt-2 font-kepler text-xl font-semibold leading-tight  text-black hover:underline mb-1">
                 {product.name}
               </span>
-
-              <p className="mt-4 font-kepler font-semibold  text-xl">
-                Features
-              </p>
               <div className="my-[1px]">
                 <div className="my-[1px]">
                   {" "}
@@ -86,13 +82,7 @@ const ProductDetails = () => {
                 {/* <div className="my-[1px]"> <span className="font-kepler "> <span className="font-kepler text-[16px] font-semibold " >{product.Crimpingtitle}</span> {product.Crimping}</span></div>
                 <div className="my-[1px]"> <span className="font-kepler "> <span className="font-kepler text-[16px] font-semibold " >{product.Strippingtitle}</span> {product.Stripping}</span></div> */}
                 <div className="my-[1px]">
-                  <span className="font-kepler ">
-                    {" "}
-                    <span className="font-kepler text-[16px] font-semibold">
-                      Material:
-                    </span>{" "}
-                    {product.material}
-                  </span>
+                  <span className="font-kepler "> {product.material}</span>
                 </div>
                 <div className="my-[1px]">
                   <span className="font-kepler ">
