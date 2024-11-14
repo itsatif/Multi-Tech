@@ -1,16 +1,17 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import {
-  AiOutlineInstagram,
-  AiOutlineYoutube,
-  AiOutlineLinkedin,
   AiOutlineFacebook,
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
   AiOutlineTwitter,
+  AiOutlineYoutube,
 } from "react-icons/ai";
 import { FaAmazon } from "react-icons/fa";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { IoIosContact } from "react-icons/io";
 import { ImPointRight } from "react-icons/im";
+
 const Footer = () => {
   return (
     <>
@@ -83,7 +84,9 @@ const Footer = () => {
             </span>
             <span className="p-1 text-sm font-serif cursor-pointer my-1 flex items-center">
               <ImPointRight className="text-yellow-500 mr-2 text-lg" />{" "}
-              <NavLink to={"/nipper-micro&shears"}>Nipper & Flash Cutters</NavLink>
+              <NavLink to={"/nipper-micro&shears"}>
+                Nipper & Flash Cutters
+              </NavLink>
             </span>
           </div>
         </div>
@@ -149,17 +152,30 @@ const Footer = () => {
                 <AiOutlineYoutube className="text-3xl   text-black" />
               </h2>
             </Link>
-            <Link to={"https://www.amazon.in/s?me=AWPMSA9DQ9C2J&ref=sf_seller_app_share_new"}>
+            <Link
+              to={
+                "https://www.amazon.in/s?me=AWPMSA9DQ9C2J&ref=sf_seller_app_share_new"
+              }
+            >
               {" "}
               <h2 className="px-1 cursor-pointer">
                 <FaAmazon className="text-3xl   text-black" />
               </h2>
             </Link>
           </div>
-          <h2 className="py-2 text-bold font-serif">
-            © <strong className="text-orange-600 text-xl">Risezonic.</strong>{" "}
+          <h2 className="py-2 font-bold font-serif">
+            © <strong className="text-orange-600 text-xl">Brandhype.</strong>{" "}
             All Rights Reserved. Designed by{" "}
-            <strong className="text-orange-600">Risezonic.com</strong>{" "}
+            <strong className="text-orange-600">
+              <a
+                href="https://brandhype.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                brandhype.in
+              </a>
+            </strong>
           </h2>
         </div>
       </footer>

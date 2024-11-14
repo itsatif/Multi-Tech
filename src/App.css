@@ -27,6 +27,7 @@
     display: flex;
     align-items: center;
 }
+
 .scrolling-text:hover {
     animation-play-state: paused;
 }
@@ -50,4 +51,34 @@
     right: 15px;
     /* box-shadow: 2px 2px 3px #999; */
     z-index: 100;
+}
+
+
+.leading-tight {
+    line-height: 1.25;
+    color: #253C56 !important;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.font-kepler.cursor-pointer {
+    font-size: 18px;
+}
+
+.mt-1.font-kepler.normal-case {
+    font-size: 18px;
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #777;
+}
+
+.mt-1.font-kepler.normal-case::before {
+    color: rgb(185, 28, 28);
+    content: "\f00c ";
+    font-family: FontAwesome, sans-serif !important;
+    margin-right: 6px;
+}
+
+.mt-1.font-kepler.normal-case:last-child {
+    border-bottom: none;
 }

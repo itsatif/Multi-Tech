@@ -239,31 +239,44 @@ const ProductDetails = () => {
                 </table>
               </div>
               <div>
-                <span className="font-kepler  cursor-pointer mb-2 py-8 text-[16px] font-semibold">
-                  {" "}
-                  Additional Info :
+                <span className="font-kepler cursor-pointer mb-2 py-8 text-[16px] font-semibold">
+                  Additional Info:
                 </span>
-                <p className="mt-1  font-kepler normal-case ">
-                  {product.features}
-                </p>
-                <p className="mt-1  font-kepler normal-case ">
-                  {product.features1}
-                </p>
-                <p className="mt-1  font-kepler normal-case ">
-                  {product.features2}
-                </p>
-                <p className="mt-1  font-kepler normal-case ">
-                  {product.features3}
-                </p>
-                <p className="mt-1  font-kepler normal-case ">
-                  {product.features4}
-                </p>
-                <p className="mt-1  font-kepler normal-case ">
-                  {product.features5}
-                </p>
-                <p className="mt-1  font-kepler normal-case ">
-                  {product.features6}
-                </p>
+                {product.features && (
+                  <p className="mt-1 font-kepler normal-case">
+                    {product.features}
+                  </p>
+                )}
+                {product.features1 && (
+                  <p className="mt-1 font-kepler normal-case">
+                    {product.features1}
+                  </p>
+                )}
+                {product.features2 && (
+                  <p className="mt-1 font-kepler normal-case">
+                    {product.features2}
+                  </p>
+                )}
+                {product.features3 && (
+                  <p className="mt-1 font-kepler normal-case">
+                    {product.features3}
+                  </p>
+                )}
+                {product.features4 && (
+                  <p className="mt-1 font-kepler normal-case">
+                    {product.features4}
+                  </p>
+                )}
+                {product.features5 && (
+                  <p className="mt-1 font-kepler normal-case">
+                    {product.features5}
+                  </p>
+                )}
+                {product.features6 && (
+                  <p className="mt-1 font-kepler normal-case">
+                    {product.features6}
+                  </p>
+                )}
               </div>
             </div>
             {/* <div className="h-auto w-[2px] bg-gray-300 mt-8 sm:flex hidden" >
