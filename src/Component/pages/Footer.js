@@ -164,8 +164,8 @@ const Footer = () => {
             </Link>
           </div>
           <h2 className="py-2 font-bold font-serif">
-            © <strong className="text-orange-600 text-xl">Brandhype.</strong>{" "}
-            All Rights Reserved. Designed by{" "}
+            © <strong className="text-orange-600 text-xl">MULTITEC.</strong>{" "}
+            All Rights Reserved. Maintained by{" "}
             <strong className="text-orange-600">
               <a
                 href="https://brandhype.in/"

@@ -230,7 +230,7 @@ const ProductDetails = () => {
               </div>
               <div>
                 <span className="font-kepler cursor-pointer mb-2 py-8 text-[16px] font-semibold">
-                  Additional Info:
+                  Application:
                 </span>
                 {product.features && (
                   <p className="mt-1 font-kepler normal-case">
