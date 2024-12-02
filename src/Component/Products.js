@@ -1603,7 +1603,7 @@ export const Products = [
     modelno: "PL - 15 G",
     URLname: "Power-Geared-Anvil-Lopper-15",
     name: "Power Geared Anvil Lopper-15",
-    img: "PL-15-G.jpg",
+    img: "PL-15G.jpg",
     material: "Stainless Steel",
     handeltitle: "Engineering Plastic ",
     URL: "Collase of Garden tools.webp",
