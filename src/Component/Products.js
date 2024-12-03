@@ -1405,7 +1405,7 @@ export const Products = [
     modelno: "PSA-01",
     URLname: "Anvil-Pruning-Shear-7-1-2",
     name: "Anvil Pruning Shear - 7 1/2",
-    img: "HPS-23.webp",
+    img: "PSA-01.jpg",
     material: "Stainless Steel",
     handeltitle: "Plastisol: ",
     handel: "TPE/PVC.",
