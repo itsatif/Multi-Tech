@@ -15,7 +15,6 @@ const ProductDetails = () => {
   if (!product) {
     return <div>Product not found</div>;
   }
-  // console.log(product)
 
   return (
     <>
@@ -32,7 +31,6 @@ const ProductDetails = () => {
         <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-full mt-12 ">
           <div className="md:flex">
             <div className="md:shrink-0 mb-3 p-5 overflow-hidden">
-              {/* <img src={`/images/${product.img}`} alt={product.name} /> */}
               <img
                 className="h-96 w-full object-contain md:h-[500px] md:w-[500px] shadow-l-lg hover:scale-110 transition ease-in-out delay-150 hover:translate-y-1 duration-300 hover:saturate-100"
                 src={`/image/${product.img}`}
@@ -46,7 +44,10 @@ const ProductDetails = () => {
                 {product.modelno}
               </div>
 
-              <span className="block mt-2 font-kepler text-xl font-semibold leading-tight  text-black hover:underline mb-1">
+              <span
+                className="block mt-2 font-kepler text-xl font-semibold leading-tight  text-black hover:underline mb-1"
+                style={{ color: "#767171" }}
+              >
                 {product.name}
               </span>
               <div className="my-[1px]">
@@ -79,8 +80,6 @@ const ProductDetails = () => {
                     {product.capacity}
                   </span>
                 </div>
-                {/* <div className="my-[1px]"> <span className="font-kepler "> <span className="font-kepler text-[16px] font-semibold " >{product.Crimpingtitle}</span> {product.Crimping}</span></div>
-                <div className="my-[1px]"> <span className="font-kepler "> <span className="font-kepler text-[16px] font-semibold " >{product.Strippingtitle}</span> {product.Stripping}</span></div> */}
                 <div className="my-[1px]">
                   <span className="font-kepler "> {product.material}</span>
                 </div>
@@ -230,47 +229,79 @@ const ProductDetails = () => {
               </div>
               <div>
                 <span className="font-kepler cursor-pointer mb-2 py-8 text-[16px] font-semibold">
-                  Application:
+                  {Array.isArray(product.features)
+                    ? "Features:"
+                    : "Application:"}
                 </span>
-                {product.features && (
-                  <p className="mt-1 font-kepler normal-case">
-                    {product.features}
-                  </p>
+                {Array.isArray(product.features) ? (
+                  product.features.map((feature, index) => (
+                    <p key={index} className="mt-1 font-kepler normal-case">
+                      {feature}
+                    </p>
+                  ))
+                ) : (
+                  <>
+                    {product.features && (
+                      <p className="mt-1 font-kepler normal-case">
+                        {product.features}
+                      </p>
+                    )}
+                    {product.features1 && (
+                      <p className="mt-1 font-kepler normal-case">
+                        {product.features1}
+                      </p>
+                    )}
+                    {product.features2 && (
+                      <p className="mt-1 font-kepler normal-case">
+                        {product.features2}
+                      </p>
+                    )}
+                    {product.features3 && (
+                      <p className="mt-1 font-kepler normal-case">
+                        {product.features3}
+                      </p>
+                    )}
+                    {product.features4 && (
+                      <p className="mt-1 font-kepler normal-case">
+                        {product.features4}
+                      </p>
+                    )}
+                    {product.features5 && (
+                      <p className="mt-1 font-kepler normal-case">
+                        {product.features5}
+                      </p>
+                    )}
+                    {product.features6 && (
+                      <p className="mt-1 font-kepler normal-case">
+                        {product.features6}
+                      </p>
+                    )}
+                  </>
                 )}
-                {product.features1 && (
-                  <p className="mt-1 font-kepler normal-case">
-                    {product.features1}
-                  </p>
-                )}
-                {product.features2 && (
-                  <p className="mt-1 font-kepler normal-case">
-                    {product.features2}
-                  </p>
-                )}
-                {product.features3 && (
-                  <p className="mt-1 font-kepler normal-case">
-                    {product.features3}
-                  </p>
-                )}
-                {product.features4 && (
-                  <p className="mt-1 font-kepler normal-case">
-                    {product.features4}
-                  </p>
-                )}
-                {product.features5 && (
-                  <p className="mt-1 font-kepler normal-case">
-                    {product.features5}
-                  </p>
-                )}
-                {product.features6 && (
-                  <p className="mt-1 font-kepler normal-case">
-                    {product.features6}
-                  </p>
+              </div>
+              <div className="mt-4">
+                {product.application && (
+                  <>
+                    <h3 className="font-kepler text-lg font-semibold">
+                      Applications:
+                    </h3>
+                    {Array.isArray(product.application) ? (
+                      <ul className="list-disc ml-6 mt-2">
+                        {product.application.map((app, index) => (
+                          <li key={index} className="font-kepler">
+                            {app}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="font-kepler ml-6 mt-2">
+                        {product.application}
+                      </p>
+                    )}
+                  </>
                 )}
               </div>
             </div>
-            {/* <div className="h-auto w-[2px] bg-gray-300 mt-8 sm:flex hidden" >
-            </div> */}
           </div>
           <div className="flex flex-wrap sm:justify-evenly justify-center">
             <div className="flex justify-center  mb-4 pb-2  px-4 py-4">
