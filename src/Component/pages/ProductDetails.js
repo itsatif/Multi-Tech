@@ -227,6 +227,28 @@ const ProductDetails = () => {
                   </tr>
                 </table>
               </div>
+              <div className="mt-4">
+                {product.technical && (
+                  <>
+                    <h3 className="font-kepler text-lg font-semibold">
+                      Technical:
+                    </h3>
+                    {Array.isArray(product.technical) ? (
+                      <ul className="list-disc ml-6 mt-2">
+                        {product.technical.map((app, index) => (
+                          <li key={index} className="font-kepler">
+                            {app}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="font-kepler ml-6 mt-2">
+                        {product.technical}
+                      </p>
+                    )}
+                  </>
+                )}
+              </div>
               <div>
                 <span className="font-kepler cursor-pointer mb-2 py-8 text-[16px] font-semibold">
                   {Array.isArray(product.features)
