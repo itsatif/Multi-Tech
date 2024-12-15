@@ -10,10 +10,25 @@ const ProductDetails = () => {
     window.scrollTo(0, 0);
   }, []);
   const { URLname } = useParams();
-  const product = Products.find((product) => product.URLname == URLname);
+  console.log(URLname);
+  const product = Products.find(
+    (product) => product.URLname && product.URLname.trim() === URLname,
+  );
   console.log(product);
   if (!product) {
-    return <div>Product not found</div>;
+    return (
+      <div
+        style={{
+          height: "50dvh",
+          display: "grid",
+          placeItems: "center",
+          fontSize: "24px",
+          color: "#ff0000",
+        }}
+      >
+        Product not found
+      </div>
+    );
   }
 
   return (
@@ -40,7 +55,7 @@ const ProductDetails = () => {
             </div>
             <div className="p-8 ">
               <div className=" font-kepler tracking-wide text-xl font-semibold mt-12">
-                <span className="pr-3 ">{product.headname}</span>
+                <span>{product.headname}</span>
                 {product.modelno}
               </div>
 
@@ -106,7 +121,7 @@ const ProductDetails = () => {
                   <span className="font-kepler ">
                     {" "}
                     <span className="font-kepler text-[16px] font-semibold"></span>{" "}
-                    {product.Applicaton1}
+                    {product?.Applicaton1}
                   </span>
                 </div>
               </div>
@@ -227,28 +242,6 @@ const ProductDetails = () => {
                   </tr>
                 </table>
               </div>
-              <div className="mt-4">
-                {product.technical && (
-                  <>
-                    <h3 className="font-kepler text-lg font-semibold">
-                      Technical:
-                    </h3>
-                    {Array.isArray(product.technical) ? (
-                      <ul className="list-disc ml-6 mt-2">
-                        {product.technical.map((app, index) => (
-                          <li key={index} className="font-kepler">
-                            {app}
-                          </li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <p className="font-kepler ml-6 mt-2">
-                        {product.technical}
-                      </p>
-                    )}
-                  </>
-                )}
-              </div>
               <div>
                 <span className="font-kepler cursor-pointer mb-2 py-8 text-[16px] font-semibold">
                   {Array.isArray(product.features)
@@ -318,6 +311,28 @@ const ProductDetails = () => {
                     ) : (
                       <p className="font-kepler ml-6 mt-2">
                         {product.application}
+                      </p>
+                    )}
+                  </>
+                )}
+              </div>
+              <div className="mt-4">
+                {product.technical && (
+                  <>
+                    <h3 className="font-kepler text-lg font-semibold">
+                      Technical:
+                    </h3>
+                    {Array.isArray(product.technical) ? (
+                      <ul className="list-disc ml-6 mt-2">
+                        {product.technical.map((app, index) => (
+                          <li key={index} className="font-kepler">
+                            {app}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="font-kepler ml-6 mt-2">
+                        {product.technical}
                       </p>
                     )}
                   </>

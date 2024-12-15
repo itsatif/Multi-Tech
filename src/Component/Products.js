@@ -955,7 +955,9 @@ export const Products = [
       "Fitted with grip for quick-fix onto four lengths of handles",
     ],
     application: [
-      "Handy tool for weeding, hoeing and making trenches, Suitable in gardens, fields in and around bushy shrubs and plants ",
+      "Handy tool for weeding, hoeing and making trenches",
+      "Suitable in gardens",
+      "fields in and around bushy shrubs and plants ",
     ],
   },
   {
@@ -999,7 +1001,7 @@ export const Products = [
   },
   {
     id: 100,
-    URLname: "Ridge-Plough ",
+    URLname: "Ridge-Plough",
     name: "Ridge Plough ",
     img: "mts-105.jpg",
     category: "Quick-fix Multi-tool",
@@ -1255,7 +1257,7 @@ export const Products = [
   },
   {
     id: 113,
-    URLname: "Fork ",
+    URLname: "Fork",
     name: "Fork",
     img: "mts-118.jpg",
     category: "Quick-fix Multi-tool",
