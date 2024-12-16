@@ -1420,7 +1420,7 @@ export const Products = [
   {
     id: 122,
     modelno: "PSB-03",
-    URLname: "Heavy-Duty-By-pass-Pruning-Shear",
+    URLname: "Heavy-Duty-By-pass-Pruning-Shear-PSB-03",
     name: "Heavy Duty By-pass Pruning Shear",
     img: "PSB-03.jpg",
     features: [
@@ -1463,7 +1463,7 @@ export const Products = [
   {
     id: 124,
     modelno: "PSB-05",
-    URLname: "Heavy-Duty-By-pass-Pruning-Shear",
+    URLname: "Heavy-Duty-By-pass-Pruning-Shear-PSB-05",
     name: "Heavy Duty By-pass Pruning Shears",
     img: "PSB-05.jpg",
     features: [
@@ -1505,7 +1505,7 @@ export const Products = [
   {
     id: 127,
     modelno: "PSB-08",
-    URLname: "Heavy-Duty-By-pass-Pruning-Shear",
+    URLname: "Heavy-Duty-By-pass-Pruning-Shear-PSB-08",
     name: "Heavy Duty By-pass Pruning Shears",
     img: "PSB-08.jpg",
     features: [
@@ -1900,7 +1900,6 @@ export const Products = [
       "Dual heat-treated blades for high cutting performance",
       "Straight cutting edge for clear chopping/slicing at center with equally sturdy anvil as support",
       "Fixed, light weight handles made out of heavy-duty Aluminum pipe with comfort grips.",
-      "Aluminum handles are corrosion free",
       "Easy operation of extension of handles",
       "Aluminum handles are corrosion free",
       "Best suitable for dead wood. Can also be used for green wood",

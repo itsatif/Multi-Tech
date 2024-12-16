@@ -317,6 +317,28 @@ const ProductDetails = () => {
                 )}
               </div>
               <div className="mt-4">
+                {product.precautions && (
+                  <>
+                    <h3 className="font-kepler text-lg font-semibold">
+                      Precautions:
+                    </h3>
+                    {Array.isArray(product.precautions) ? (
+                      <ul className="list-disc ml-6 mt-2">
+                        {product.precautions.map((app, index) => (
+                          <li key={index} className="font-kepler">
+                            {app}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="font-kepler ml-6 mt-2">
+                        {product.precautions}
+                      </p>
+                    )}
+                  </>
+                )}
+              </div>
+              <div className="mt-4">
                 {product.technical && (
                   <>
                     <h3 className="font-kepler text-lg font-semibold">
