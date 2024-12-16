@@ -1442,7 +1442,7 @@ export const Products = [
   {
     id: 123,
     modelno: "PSB-04",
-    URLname: "By-pass-Pruning-Shear",
+    URLname: "By-pass-Pruning-Shear-PSB-04",
     name: "By-pass Pruning Shear",
     img: "PSB-04.jpg",
     features: [
