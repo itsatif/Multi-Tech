@@ -3,6 +3,10 @@
     width: 8px;
 }
 
+.font-kepler {
+    font-family: "Arial Narrow", Arial, sans-serif !important;
+}
+
 /* track */
 ::-webkit-scrollbar-track {
     background-color: rgb(60, 53, 53);
