@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 :root {
@@ -117,6 +117,7 @@
     transition-delay: 0.2s;
 
 }
+
 /* product cataloge */
 .product-item .productimg {
     transition: .5s;
@@ -128,6 +129,6 @@
     border-radius: 15px 0 15px
 } */
 
-.product-item:hover .productimg  {
+.product-item:hover .productimg {
     transform: scale(1.2);
 }

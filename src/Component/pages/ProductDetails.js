@@ -55,7 +55,7 @@ const ProductDetails = () => {
             </div>
             <div className="p-8 ">
               <div className=" font-kepler tracking-wide text-xl font-semibold mt-12">
-                <span>{product.headname}</span>
+                <span>{product.headname} </span>
                 {product.modelno}
               </div>
 

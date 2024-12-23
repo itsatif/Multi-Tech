@@ -1,81 +1,63 @@
 .glassBox {
-  box-sizing: border-box;
-  transition: 400ms;
-  width: 300px;
-  /* border-radius: 5px; */
-  /* background:radial-gradient(rgb(90,92,106) 0%, rgb(32,45,58) 78.3%); */
-  backdrop-filter: blur(2px);
-  /* border: 2px solid rgba(3, 3, 3, 0.2); */
-  /* border: 1px solid rgba(255, 255, 255, 0.2); */
-  /* border-right-color: rgba(255, 255, 255, 0.1);
-    border-bottom-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1); */
-  padding: 15px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    box-sizing: border-box;
+    transition: 400ms;
+    width: 300px;
+    backdrop-filter: blur(2px);
+    padding: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .glassBox__imgBox {
-  display: block;
-  width: 100%;
-  transition: 400ms;
-  height: 200px;
-  aspect-ratio: 5/2;
-  object-fit: contain;
+    display: block;
+    width: 100%;
+    transition: 400ms;
+    height: 200px;
+    aspect-ratio: 5/2;
+    object-fit: contain;
 }
 
 .productcardimg {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: block;
-  width: 100%;
-  transition: 400ms;
-  height: 200px;
-  box-shadow: 0 10px 8px -10px #000000;
-  object-fit: contain;
-  /* mix-blend-mode: color-burn; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    transition: 400ms;
+    height: 200px;
+    box-shadow: 0 10px 8px -10px #000000;
+    object-fit: contain;
+    /* mix-blend-mode: color-burn; */
 }
 
 .glassBox__title {
-  text-align: center;
-  margin-top: 15px;
-  color: black;
-  /* background-color: aqua; */
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Lato";
-  transition: 400ms;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    transition: 400ms;
 }
 
 .glassBox__content {
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  text-align: center;
-  color: black;
-  font-size: 14px;
-  font-family: "Lato";
-  letter-spacing: 0.1em;
-  opacity: 0;
-  transition: 100ms;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 0.1em;
+    opacity: 0;
+    transition: 100ms;
 }
 
 .glassBox:hover .glassBox__imgBox {
-  transform: translateY(-50px);
-  transition: 400ms;
-}
-
-/* 
-.glassBox:hover .glassBox__imgBox .productcardimg {
-    transform: translate(-30px, -20px) rotate(10deg) scale(1.3);
+    transform: translateY(-50px);
     transition: 400ms;
-} */
-
-.glassBox:hover .glassBox__title {
-  /* margin-top: 40px; */
 }
