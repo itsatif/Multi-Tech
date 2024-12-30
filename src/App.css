@@ -132,3 +132,22 @@
 .mt-1.font-kepler.normal-case:last-child {
     border-bottom: none;
 }
+
+.leading-tight {
+    color: #767171 !important;
+    font-size: 22px;
+    line-height: 1.25;
+    margin-top: 20px;
+    border-bottom: 2px solid #000;
+}
+
+.font-kepler.cursor-pointer {
+    font-size: 20px;
+}
+
+.mt-1.font-kepler.normal-case {
+    border-bottom: 1px dotted #777;
+    font-size: 18px;
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
