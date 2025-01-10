@@ -1578,7 +1578,7 @@ export const Products = [
             "Creating and maintaining hedges",
             "Extendable handles trim and shape far-off bushes",
         ],
-        technical: ["Blade Length 10", "Overall length: 840mm(approx.)"],
+        technical: ["Overall length: 840mm(approx.)"],
         URL: "Collase of Garden tools.webp",
         category: "Garden & Agro Tools",
     },
