@@ -151,3 +151,8 @@
     margin-top: 12px;
     padding-bottom: 12px;
 }
+
+.truncate {
+    font-weight: 500;
+    font-size: 16px !important;
+}
