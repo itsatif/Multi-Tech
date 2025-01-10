@@ -1793,7 +1793,7 @@ export const Products = [
         modelno: "HPS-23",
         URLname: "Curve-Pruning-Saw ",
         name: "Curve Pruning Saw ",
-        img: "HPS-23.jpg",
+        img: "HPS-23.webp",
         features: [
             "Blade made out of High Carbon Steel",
             "Triple cut blades on both push & pull strokes",
