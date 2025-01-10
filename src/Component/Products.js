@@ -1524,7 +1524,7 @@ export const Products = [
             "Rivetted link-handle prevents loosening of handle with link",
         ],
         application: ["Trimming of bushes", "Creating and maintaining hedges"],
-        technical: ["Blade Length 10", "Overall Length: 575mm (approx.)"],
+        technical: ["Overall Length: 575mm (approx.)"],
         URL: "Collase of Garden tools.webp",
         category: "Garden & Agro Tools",
     },
@@ -1783,7 +1783,7 @@ export const Products = [
         technical: [
             "Cutting Capacity: 80mm ",
             "Pitch 7 teeth/inch",
-            "Length of blade: 10”/254mm",
+            "Length of blade: 10”/250mm",
         ],
         URL: "Collase of Garden tools.webp",
         category: "Garden & Agro Tools",
