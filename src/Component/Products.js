@@ -1402,7 +1402,7 @@ export const Products = [
         modelno: "PSB-07",
         URLname: "Auto-unlock-By-pass-Pruning-Shear",
         name: "Auto-unlock By-pass Pruning Shear",
-        img: "psb-07.jpg",
+        img: "PSB-07.jpg",
         features: [
             "Blade made out of High Carbon Steel",
             "Double heat-treated blade for extra power",
