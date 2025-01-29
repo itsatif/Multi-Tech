@@ -1717,7 +1717,7 @@ export const Products = [
         modelno: "MT-02Dx",
         URLname: "Wire-Stripper",
         name: "Wire Stripper",
-        img: "MT-02Dx.jpg",
+        img: "MT-02DX.jpeg",
         "features": ["Made out of Nylon body", "Smooth operation free from any hindrance"],
         "application": ["A unique tool to strip & cut insulation of copper wire ranging from 0.5mm to 2.5mm", "Suitable for electronics, aviation, automobile and day to day maintenance"],
         "technical": ["Cutting/stripping capacity: Copper wire Φ 14-24 AWG / 0.5 mm² - 6.0 mm², Overall length: 180 mm"],
