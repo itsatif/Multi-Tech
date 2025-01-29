@@ -485,26 +485,6 @@ export const Products = [
         features: "Safety lock when not in use.",
     },
     {
-        id: 72,
-        modelno: "CC-200 SS",
-        URLname: "CC-200-SS",
-        name: "SS Cable Cutter",
-        img: "CC-200-SS.webp",
-        headname: "Stainless Steel Tools",
-        sizetitle: "Size",
-        size: "170mm.",
-        CapacityTitle: "Capacity: ",
-        capacity: "Cut 10mm Cable.",
-        material: "Stainless Steel.",
-        handeltitle: "Handle: ",
-        handel: "TPE.",
-        ApplicatonTitle: "Application: ",
-        Applicaton: "SS cable cutter for 10 mm cable.",
-        URL: "Stainless Steel Toolsbanner.webp",
-        category: "Stainless Steel Tools",
-        features: "Safety lock when not in use.",
-    },
-    {
         id: 73,
         modelno: "901 SS",
         URLname: "901 SS",
@@ -546,157 +526,6 @@ export const Products = [
     },
 
     // NIPPERS & MICRO- SHEARS
-    {
-        id: 75,
-        modelno: "07",
-        URLname: "07",
-        name: "Nipper Cutter",
-        img: "07.webp",
-        headname: "Nippers & Micro- Shears",
-        sizetitle: "Size: ",
-        size: "120mm.",
-        CapacityTitle: "Capacity: ",
-        capacity: "Cut cu & all Conductors form 0.8mm To 1.2mm.",
-        material: "Alloy Steel.",
-        handeltitle: "Handle: ",
-        handel: "Dual tone 100% lead free polystyrene.",
-        ApplicatonTitle: "Application: ",
-        Applicaton:
-            "Versatile tool for cutting copper and aluminium conductors form 0.8mm to 1.2mm.",
-        category: " Nippers & Micro- Shears",
-        URL: "micro shears banner.webp",
-        features: "Large ergonomic handles.",
-    },
-    {
-        id: 76,
-        modelno: "07AElectra",
-        URLname: "07-Electra",
-        name: "Hard Wire Nipper Cutter",
-        img: "07AElectra.webp",
-        headname: "Nippers & Micro- Shears",
-        sizetitle: "Size: ",
-        size: "120mm.",
-        CapacityTitle: "Capacity: ",
-        capacity:
-            "Cut Iron Wire upto 1.2 mm Dia  2. Cut Conductors from 1.0mm To 1.6mm Dia.",
-        material: "Alloy Steel.",
-        handeltitle: "Handle: ",
-        handel: "Dual tone 100% lead free polystyrene.",
-        ApplicatonTitle: "Application: ",
-        Applicaton:
-            "Versatile tool for cutting copper and aluminium conductors form 0.8mm to 1.2mm.",
-        category: " Nippers & Micro- Shears",
-        URL: "micro shears banner.webp",
-        features: "Large ergonomic handles.",
-    },
-    {
-        id: 77,
-        modelno: "06",
-        URLname: "06",
-        name: " Microshear",
-        img: "06.webp",
-        headname: "Nippers & Micro- Shears",
-        sizetitle: "Size: ",
-        size: "125mm.",
-        CapacityTitle: "Capacity: ",
-        capacity: "Cut Wires from 0.8mm To 1.4mm.",
-        material: "Alloy Steel.",
-        handeltitle: "Handle: ",
-        handel: "PVC grips.",
-        ApplicatonTitle: "Application: ",
-        Applicaton: "Can cut CU wires.",
-        category: " Nippers & Micro- Shears",
-        URL: "micro shears banner.webp",
-    },
-    {
-        id: 78,
-        modelno: "MT010",
-        URLname: "MT010",
-        name: "Microcutter",
-        img: "MT010.webp",
-        headname: "Nippers & Micro- Shears",
-        sizetitle: "Size: ",
-        size: "125 mm.",
-        CapacityTitle: "Capacity: ",
-        capacity: "Cut Wires from 0.8mm To 1.2mm.",
-        material: "Alloy Steel.",
-        handeltitle: "Handle: ",
-        handel: "PVC grips.",
-        ApplicatonTitle: "Application: ",
-        Applicaton: "Can cut CU wires.",
-        category: " Nippers & Micro- Shears",
-        URL: "micro shears banner.webp",
-    },
-
-    // pillers
-    {
-        id: 81,
-        modelno: "MT-555",
-        URLname: "MT-555",
-        name: "Combination Plier",
-        img: "MT-555.webp",
-        headname: "Pilers",
-        OVERALLLENGTHTitle: "Overall Length: ",
-        OVERALLLENGTHT: "8.",
-        CapacityTitle: "Capacity: ",
-        capacity: "208mm.",
-        material: "High Grade Chrome-Vanadium Steel.",
-        handeltitle: "Handle: ",
-        handel: "Heavy duty CA-FR sleeves.",
-        ApplicatonTitle: "Application",
-        Applicaton: "Can cut heavy duty electrical Wires.",
-        URL: "pilerbanner.webp",
-        category: "Pilers",
-        features: "1.Forged out of high-grade chrome vanadium steel.",
-        features1: "2.Jaws duly induction hardened.",
-        features2:
-            "3.Injection moulded heavy duty CA-FR sleeves with anti-slip and high hand grip to prevent slipping.",
-        features4: "4.Insulated sleeves tested for 2500 volts.",
-    },
-    {
-        id: 82,
-        modelno: "MT-535",
-        URLname: "MT-535",
-        name: "Long Nose Piler",
-        img: "MT-535.webp",
-        headname: "Pilers",
-        OVERALLLENGTHTitle: "Overall Length: ",
-        OVERALLLENGTHT: "7.",
-        CapacityTitle: "Capacity: ",
-        capacity: "117mm.",
-        material: "Chrome vanadium steel.",
-        handeltitle: "Handle: ",
-        handel: "Heavy duty CA-FR sleeves.",
-        ApplicatonTitle: "Application",
-        Applicaton: "Can hold and cut fine electrical wire.",
-        URL: "pilerbanner.webp",
-        category: "Pilers",
-        features: "1.Forged out of chrome vanadium steel.",
-        features1: "2.Induction hardened jaws.",
-        features2:
-            "3.Fine serrations diagonally opposite enabling gripping of thinnest Wires and components.",
-        features3: "4.Injection moulded sleeves.",
-    },
-    // cable cutter
-    {
-        id: 83,
-        modelno: "CC-200",
-        URLname: "CC-200",
-        name: "Cable Cutter",
-        img: "CC-200.webp",
-        headname: "Cable Cutter",
-        sizetitle: "Size: ",
-        size: "7.",
-        CapacityTitle: "Capacity: ",
-        capacity: "10 mm Cable.",
-        material: "High Grade Alloy Steel.",
-        handeltitle: "Handle: ",
-        handel: "PVC.",
-        URL: "cablecutterbanner.webp",
-        category: "Cable Cutter",
-        features: "Coaxial cable & wire cutter with lock",
-    },
-
     {
         id: 87,
         URLname: "Torx-Drive-Bits",
@@ -1922,10 +1751,10 @@ export const Products = [
     {
         id: 151,
         modelno: "CC-300",
-        URLname: "micro-cutter",
+        URLname: "micro-cutter-300",
         name: "Micro Cutter",
         img: "CC-300.jpg",
-        "features": ["Made out of high-grade alloy steel, Ergonomic PVC handle grips"],
+        "features": ["Made out of high-grade alloy steel", "Ergonomic PVC handle grips"],
         "application": ["For cutting Copper/Aluminium conductor", "Easy cutting with one hand operation due to high transmission ratio"],
         "technical": ["Cutting capacity: up-to 24mm²", "Overall length: 300 mm"],
         "URL": "Cable-Cutter.webp",
@@ -1937,7 +1766,7 @@ export const Products = [
         URLname: "micro-shear",
         name: "Micro Shear",
         img: "MT-06.jpg",
-        "features": ["Made out of alloy steel, Ergonomic PVC handle grips"],
+        "features": ["Made out of alloy steel", "Ergonomic PVC handle grips"],
         "application": ["Suitable for cutting wires"],
         "technical": ["Cutting capacity: Φ 0.8 mm to 1.4 mm", "Overall length: 125 mm"],
         "URL": "micro shears banner.webp",
@@ -1949,7 +1778,7 @@ export const Products = [
         URLname: "nipper-cutter",
         name: "Nipper Cutter",
         img: "MT-07.jpg",
-        "features": ["Made out of alloy steel, Dual tone 100% lead free polystyrene handle grips"],
+        "features": ["Made out of alloy steel", "Dual tone 100% lead free polystyrene handle grips"],
         "application": ["A versatile tool for cutting Copper and Aluminium conductors"],
         "technical": ["Cutting capacity: Φ 0.8 mm to 1.2 mm", "Overall length 120 mm"],
         "URL": "micro shears banner.webp",
@@ -1961,7 +1790,7 @@ export const Products = [
         URLname: "micro-cutter",
         name: "Micro Cutter",
         img: "MT-010.jpg",
-        "features": ["Made out of alloy steel, Ergonomic PVC handle grips"],
+        "features": ["Made out of alloy steel", "Ergonomic PVC handle grips"],
         "application": ["Suitable to cut wires"],
         "technical": ["Cutting capacity: Φ 0.8 mm to 1.2 mm", "Overall length: 125 mm"],
         "URL": "micro shears banner.webp",
@@ -2005,10 +1834,10 @@ export const Products = [
     },
 
     {
-        "id": 159,
-        "model": "MT-555",
-        "URLname": "combination-plier",
-        "name": "Combination Plier",
+        id: 159,
+        modelno: "MT-555",
+        URLname: "combination-plier",
+        name: "Combination Plier",
         "img": "MT-555.webp",
         "features": ["Forged out of high-grade Chrome-Vanadium steel", "Jaws duly induction hardened", "Injection moulded heavy duty CA-FR anti-slip and high hand grip sleeves", "Plier insulated sleeves are tested for 2500 AC Volts"],
         "application": ["For bending and cutting through metal wire and electrical cables", "For electricians and workmen"],
@@ -2026,7 +1855,7 @@ export const Products = [
         "application": ["A unique tool to strip & cut insulation of copper wire ranging from 0.5mm to 2.5mm", "Suitable for electronics, aviation, automobile and day to day maintenance"],
         "technical": ["Cutting/stripping capacity: Copper wire Φ 14-24 AWG / 0.5 mm² - 6.0 mm², Overall length: 180 mm"],
         "URL": "WIRE-STRIPPER.webp",
-        "category": "WIRE STRIPPER"
+        "category": "Wire Stripper"
     },
     {
         id: 166,
@@ -2038,7 +1867,7 @@ export const Products = [
         "application": ["Multitec 2-in-1 wire stripper and cutter strips wires and cables accurately and cleanly on both solid core and stranded wire.", "Suitable for electronics, aviation, automobile and day to day maintenance, Suitable fro stripping cable length capacity up-to 20 mm"],
         "technical": ["Cutting/stripping capacity: Copper wire Φ 14-24 AWG / 0.5 mm² - 6.0 mm²", "Overall length: 180 mm"],
         "URL": "WIRE-STRIPPER.webp",
-        "category": "WIRE STRIPPER"
+        "category": "Wire Stripper"
     },
     {
         id: 167,
@@ -2050,7 +1879,7 @@ export const Products = [
         "application": ["Suitable to cut and strip electrical wires"],
         "technical": ["Stripping capacity: Copper wire up-to 4.0 mm²", "Overall length: 140 mm"],
         "URL": "WIRE-STRIPPER.webp",
-        "category": "WIRE STRIPPER"
+        "category": "Wire Stripper"
     },
     {
         id: 161,
@@ -2062,7 +1891,7 @@ export const Products = [
         "application": ["Suitable to cut and strip electrical wires"],
         "technical": ["Stripping capacity: Copper wire up-to Φ 4.0 mm², Overall length: 140 mm"],
         "URL": "WIRE-STRIPPER.webp",
-        "category": "WIRE STRIPPER"
+        "category": "Wire Stripper"
     },
     {
         id: 162,
@@ -2074,7 +1903,7 @@ export const Products = [
         "application": ["Suitable to cut and strip electrical wires"],
         "technical": ["Stripping capacity: Copper wire up-to Φ 4.0 mm²", "Overall length: 140 mm"],
         "URL": "WIRE-STRIPPER.webp",
-        "category": "WIRE STRIPPER"
+        "category": "Wire Stripper"
     },
     {
         id: 163,
@@ -2086,7 +1915,7 @@ export const Products = [
         "application": ["Suitable to cut and strip electrical wires"],
         "technical": ["Stripping capacity: Copper wire up-to Φ 4.0 mm²", "Overall length: 140 mm"],
         "URL": "WIRE-STRIPPER.webp",
-        "category": "WIRE STRIPPER"
+        "category": "Wire Stripper"
     },
     {
         id: 164,
@@ -2098,7 +1927,7 @@ export const Products = [
         "application": ["Suitable to cut and strip Copper and Aluminium wires wires"],
         "technical": ["Stripping capacity: Copper and Aluminium wire up-to Φ 3.0 mm²", "Cutting capacity: ϕ 3.0 mm, Overall length: 127 mm"],
         "URL": "WIRE-STRIPPER.webp",
-        "category": "WIRE STRIPPER"
+        "category": "Wire Stripper"
     },
     {
         id: 165,
@@ -2110,7 +1939,7 @@ export const Products = [
         "application": ["Suitable to cut and strip heavy duty electrical wires and cables"],
         "technical": ["Stripping capacity: 2.1 SWG to 6.0 SWG", "Cutting capacity: ϕ 3.0 mm", "Overall length: 170 mm"],
         "URL": "WIRE-STRIPPER.webp",
-        "category": "WIRE STRIPPER"
+        "category": "Wire Stripper"
     },
 
 ];
