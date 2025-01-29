@@ -1862,7 +1862,7 @@ export const Products = [
         modelno: "MT-02Dx Plus",
         URLname: "Wire Stripper-1",
         name: "Wire Stripper",
-        img: "MT-02Dx-Plus.jpg",
+        img: "MT-02Dx-PlUS.jpg",
         "features": ["New improved engineering re-enforced plastic material body", "Smooth and fast operation", "free from any hindrance"],
         "application": ["Multitec 2-in-1 wire stripper and cutter strips wires and cables accurately and cleanly on both solid core and stranded wire.", "Suitable for electronics, aviation, automobile and day to day maintenance, Suitable fro stripping cable length capacity up-to 20 mm"],
         "technical": ["Cutting/stripping capacity: Copper wire Φ 14-24 AWG / 0.5 mm² - 6.0 mm²", "Overall length: 180 mm"],
