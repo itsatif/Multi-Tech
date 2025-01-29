@@ -1874,7 +1874,7 @@ export const Products = [
         modelno: "MT-150B",
         URLname: "Wire-Stripper-&-Cutter",
         name: " Wire Stripper & Cutter",
-        img: "MT-150B.jpg",
+        img: "MT-150B.jpeg",
         "features": ["Made out of high-grade tempered steel", "Ergonomic PVC cushioned grips", "With screw gauge adjuster"],
         "application": ["Suitable to cut and strip electrical wires"],
         "technical": ["Stripping capacity: Copper wire up-to 4.0 mm²", "Overall length: 140 mm"],
