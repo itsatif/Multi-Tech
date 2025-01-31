@@ -92,17 +92,6 @@ Industries from Gurgaon, Haryana, India."
                 <div className="felx ">
                     <ImgSlider/>
 
-                    {/* productlist start */}
-                    {/* <div className="scrolling-text-container flex justify-center mt-8">
-            <div className="scrolling-text text-2xl text-center gap-x-5 text-red-600 font-semibold">
-              We Also Sell Our Products on Amazon{" "}
-              <Link to={"https://www.amazon.in/multitec/s?k=multitec"}>
-                <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50">
-                  Visit Now
-                </button>
-              </Link>
-            </div>
-          </div> */}
                     <div className="text-center ">
                         <div className=" sm:mx-12">
                             <h1 className="text-4xl  font-bold mb-5">
