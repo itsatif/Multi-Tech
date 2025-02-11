@@ -339,28 +339,6 @@ const ProductDetails = () => {
                                 )}
                             </div>
                             <div className="mt-4">
-                                {product.caution && (
-                                    <>
-                                        <h3 className="font-kepler text-lg font-semibold">
-                                            Technical:
-                                        </h3>
-                                        {Array.isArray(product.caution) ? (
-                                            <ul className="list-disc ml-6 mt-2">
-                                                {product.caution.map((app, index) => (
-                                                    <li key={index} className="font-kepler">
-                                                        {app}
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        ) : (
-                                            <p className="font-kepler ml-6 mt-2">
-                                                {product.caution}
-                                            </p>
-                                        )}
-                                    </>
-                                )}
-                            </div>
-                            <div className="mt-4">
                                 {product.technical && (
                                     <>
                                         <h3 className="font-kepler text-lg font-semibold">
@@ -377,6 +355,28 @@ const ProductDetails = () => {
                                         ) : (
                                             <p className="font-kepler ml-6 mt-2">
                                                 {product.technical}
+                                            </p>
+                                        )}
+                                    </>
+                                )}
+                            </div>
+                            <div className="mt-4">
+                                {product.caution && (
+                                    <>
+                                        <h3 className="font-kepler text-lg font-semibold">
+                                            Caution:
+                                        </h3>
+                                        {Array.isArray(product.caution) ? (
+                                            <ul className="list-disc ml-6 mt-2">
+                                                {product.caution.map((app, index) => (
+                                                    <li key={index} className="font-kepler">
+                                                        {app}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        ) : (
+                                            <p className="font-kepler ml-6 mt-2">
+                                                {product.caution}
                                             </p>
                                         )}
                                     </>
