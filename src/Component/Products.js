@@ -1875,4 +1875,562 @@ export const Products = [
         "URL": "STAINLESS-STEEL-TOOLS.webp",
         "category": "Stainless Steel Tools"
     },
+
+    {
+        "id": 182,
+        "modelno": "HSLK-100",
+        "URLname": "Hex-Short-Series-Standard-Allen-Keys-without-Ball-Ended",
+        "name": "Hex Short Series Standard Allen Keys without Ball Ended (9 Pcs. / 6 Pcs. Set & Loose Allen Key)",
+        "img": "HSLK-100.jpg",
+        "features": ["Made out of CVM alloy steel", "Brown Coated for surface protection", "Unique jacket to hold hex keys in respective size slots"],
+        "application": ["For operating Allen Bolts"],
+        "technical": ["Hardened and tempered to 58-60 HRc", "Sustain high torsional strength", "Sets (9Pcs. Set and 6 Pcs. Set) and loose available in MM (1.5 to 10mm) and SAE (1/16” to 3/8”)"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no_mm", "label": "Model No. MM"},
+                {"key": "size_mm", "label": "Sizes MM"},
+                {"key": "model_no_inches", "label": "Model No. Inches"},
+                {"key": "size_inches", "label": "Sizes Inches"},
+                {"key": "qty_per_box", "label": "Qty Per Box"}
+            ],
+            "rows": [
+                {
+                    "model_no_mm": "SS 1.5",
+                    "size_mm": "1.5",
+                    "model_no_inches": "SS 116",
+                    "size_inches": "1/16”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 2.0",
+                    "size_mm": "2.0",
+                    "model_no_inches": "SS 564",
+                    "size_inches": "5/64”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 2.5",
+                    "size_mm": "2.5",
+                    "model_no_inches": "SS 332",
+                    "size_inches": "3/32”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 3.0",
+                    "size_mm": "3.0",
+                    "model_no_inches": "SS 18",
+                    "size_inches": "1/8”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 4.0",
+                    "size_mm": "4.0",
+                    "model_no_inches": "SS 532",
+                    "size_inches": "5/32”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 5.0",
+                    "size_mm": "5.0",
+                    "model_no_inches": "SS 316",
+                    "size_inches": "3/16”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 6.0",
+                    "size_mm": "6.0",
+                    "model_no_inches": "SS 732",
+                    "size_inches": "7/32”",
+                    "qty_per_box": "50"
+                },
+                {
+                    "model_no_mm": "SS 8.0",
+                    "size_mm": "8.0",
+                    "model_no_inches": "SS 516",
+                    "size_inches": "5/16”",
+                    "qty_per_box": "50"
+                },
+                {
+                    "model_no_mm": "SS 10.0",
+                    "size_mm": "10.0",
+                    "model_no_inches": "SS 38",
+                    "size_inches": "3/8”",
+                    "qty_per_box": "25"
+                },
+                {
+                    "model_no_mm": "HSLK-100M (9)",
+                    "size_mm": "9 PCS. SET (1.5-10MM)",
+                    "model_no_inches": "HSLK-100i (9)",
+                    "size_inches": "9 PCS. SET (1/16”-3/8”)",
+                    "qty_per_box": "10 SETS"
+                },
+                {
+                    "model_no_mm": "HSLK-100M (6)",
+                    "size_mm": "6 PCS. SET (1.5-5 MM)",
+                    "model_no_inches": "HSLK-100i (6)",
+                    "size_inches": "6 PCS. SET (1/16”-3/16”)",
+                    "qty_per_box": "10 SETS"
+                }
+            ]
+        },
+        "URL": "HEX-KEYS.webp",
+        "category": "Hex keys"
+    },
+    {
+        "id": 183,
+        "modelno": "HBLK-100",
+        "URLname": "Long-Series-Ball-Ended-Allen-Keys",
+        "name": "Long Series Ball Ended Allen Keys (9 Pcs. / 6 Pcs. Set & Loose Allen Key)",
+        "img": "HBLK-100.jpg",
+        "features": ["Made out of CVM alloy steel", "Ball-end to ease use in restricted area at an angle of 30°", "Brown Coated for surface protection", "Unique jacket to hold hex keys in respective size slots"],
+        "application": ["For operating Allen Bolts"],
+        "technical": ["Hardened and tempered to 58-60 HRc", "Sustain high torsional strength", "Sets (9Pcs. Set and 6 Pcs. Set) and loose available in MM (1.5 to 10mm) and SAE (1/16” to 3/8”)"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no_mm", "label": "Model No. MM"},
+                {"key": "size_mm", "label": "Sizes MM"},
+                {"key": "model_no_inches", "label": "Model No. Inches"},
+                {"key": "size_inches", "label": "Sizes Inches"},
+                {"key": "qty_per_box", "label": "Qty Per Box"}
+            ],
+            "rows": [
+                {
+                    "model_no_mm": "SS 1.5",
+                    "size_mm": "1.5",
+                    "model_no_inches": "SS 116",
+                    "size_inches": "1/16”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 2.0",
+                    "size_mm": "2.0",
+                    "model_no_inches": "SS 564",
+                    "size_inches": "5/64”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 2.5",
+                    "size_mm": "2.5",
+                    "model_no_inches": "SS 332",
+                    "size_inches": "3/32”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 3.0",
+                    "size_mm": "3.0",
+                    "model_no_inches": "SS 18",
+                    "size_inches": "1/8”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 4.0",
+                    "size_mm": "4.0",
+                    "model_no_inches": "SS 532",
+                    "size_inches": "5/32”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 5.0",
+                    "size_mm": "5.0",
+                    "model_no_inches": "SS 316",
+                    "size_inches": "3/16”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 6.0",
+                    "size_mm": "6.0",
+                    "model_no_inches": "SS 732",
+                    "size_inches": "7/32”",
+                    "qty_per_box": "50"
+                },
+                {
+                    "model_no_mm": "SS 8.0",
+                    "size_mm": "8.0",
+                    "model_no_inches": "SS 516",
+                    "size_inches": "5/16”",
+                    "qty_per_box": "50"
+                },
+                {
+                    "model_no_mm": "SS 10.0",
+                    "size_mm": "10.0",
+                    "model_no_inches": "SS 38",
+                    "size_inches": "3/8”",
+                    "qty_per_box": "25"
+                },
+                {
+                    "model_no_mm": "HSLK-100M (9)",
+                    "size_mm": "9 PCS. SET (1.5-10MM)",
+                    "model_no_inches": "HSLK-100i (9)",
+                    "size_inches": "9 PCS. SET (1/16”-3/8”)",
+                    "qty_per_box": "10 SETS"
+                },
+                {
+                    "model_no_mm": "HSLK-100M (6)",
+                    "size_mm": "6 PCS. SET (1.5-5 MM)",
+                    "model_no_inches": "HSLK-100i (6)",
+                    "size_inches": "6 PCS. SET (1/16”-3/16”)",
+                    "qty_per_box": "10 SETS"
+                }
+            ]
+        },
+        "URL": "HEX-KEYS.webp",
+        "category": "Hex keys"
+    },
+    {
+        "id": 184,
+        "modelno": "HBLK-200",
+        "URLname": "Extra-Long-Series-Ball-Ended-Allen-Keys",
+        "name": " Extra Long Series Ball Ended Allen Keys (9 Pcs. / 6 Pcs. Set & Loose Allen Key)",
+        "img": "HBLK-200.jpg",
+        "features": ["Made out of CVM alloy steel", "Ball-end to ease use in restricted area at an angle of 30°", "Brown Coated for surface protection", "Unique jacket to hold hex keys in respective size slots"],
+        "application": ["For operating Allen Bolts"],
+        "technical": ["Hardened and tempered to 58-60 HRc", "Sustain high torsional strength", "Sets (9Pcs. Set and 6 Pcs. Set) and loose available in MM (1.5 to 10mm) and SAE (1/16” to 3/8”)"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no_mm", "label": "Model No. MM"},
+                {"key": "size_mm", "label": "Sizes MM"},
+                {"key": "model_no_inches", "label": "Model No. Inches"},
+                {"key": "size_inches", "label": "Sizes Inches"},
+                {"key": "qty_per_box", "label": "Qty Per Box"}
+            ],
+            "rows": [
+                {
+                    "model_no_mm": "SS 1.5",
+                    "size_mm": "1.5",
+                    "model_no_inches": "SS 116",
+                    "size_inches": "1/16”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 2.0",
+                    "size_mm": "2.0",
+                    "model_no_inches": "SS 564",
+                    "size_inches": "5/64”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 2.5",
+                    "size_mm": "2.5",
+                    "model_no_inches": "SS 332",
+                    "size_inches": "3/32”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 3.0",
+                    "size_mm": "3.0",
+                    "model_no_inches": "SS 18",
+                    "size_inches": "1/8”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 4.0",
+                    "size_mm": "4.0",
+                    "model_no_inches": "SS 532",
+                    "size_inches": "5/32”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 5.0",
+                    "size_mm": "5.0",
+                    "model_no_inches": "SS 316",
+                    "size_inches": "3/16”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "SS 6.0",
+                    "size_mm": "6.0",
+                    "model_no_inches": "SS 732",
+                    "size_inches": "7/32”",
+                    "qty_per_box": "50"
+                },
+                {
+                    "model_no_mm": "SS 8.0",
+                    "size_mm": "8.0",
+                    "model_no_inches": "SS 516",
+                    "size_inches": "5/16”",
+                    "qty_per_box": "50"
+                },
+                {
+                    "model_no_mm": "SS 10.0",
+                    "size_mm": "10.0",
+                    "model_no_inches": "SS 38",
+                    "size_inches": "3/8”",
+                    "qty_per_box": "25"
+                },
+                {
+                    "model_no_mm": "HSLK-100M (9)",
+                    "size_mm": "9 PCS. SET (1.5-10MM)",
+                    "model_no_inches": "HSLK-100i (9)",
+                    "size_inches": "9 PCS. SET (1/16”-3/8”)",
+                    "qty_per_box": "10 SETS"
+                },
+                {
+                    "model_no_mm": "HSLK-100M (6)",
+                    "size_mm": "6 PCS. SET (1.5-5 MM)",
+                    "model_no_inches": "HSLK-100i (6)",
+                    "size_inches": "6 PCS. SET (1/16”-3/16”)",
+                    "qty_per_box": "10 SETS"
+                }
+            ]
+        },
+        "URL": "HEX-KEYS.webp",
+        "category": "Hex keys"
+    },
+    {
+        "id": 185,
+        "modelno": "THK-100",
+        "URLname": "Tee-Handle-Allen-Keys",
+        "name": "Tee Handle Allen Keys (9 Pcs. Tee-Handle Allen/Hex Driver Set (Metric/Inches) & Loose)",
+        "img": "THK-100.jpg",
+        "features": ["Made out of high-grade alloy steel", "Ends duly faced and chamfered for easy & perfect fitment", "Brown Coated for surface protection", "T-Handles are made of high toughness engineering plastic", "Hex key rack for storage and easy access", "Includes 1 pc. 2-in-1 screw driver Model No. R-6100 (PH2-S6)", "Magnetic tip for better leverage", "Long length for easy access to restricted places"],
+        "application": ["For operating Allen Bolts"],
+        "technical": ["Hardened and tempered", "Sustain high torsional strength", "Sets (9Pcs. Set and 6 Pcs. Set) and loose available in MM (1.5 to 10mm) and SAE (1/16” to 3/8”)"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no_mm", "label": "Model No. MM"},
+                {"key": "size_mm", "label": "Sizes MM"},
+                {"key": "model_no_inches", "label": "Model No. Inches"},
+                {"key": "size_inches", "label": "Sizes Inches"},
+                {"key": "qty_per_box", "label": "Qty Per Box"}
+            ],
+            "rows": [
+                {
+                    "model_no_mm": "THK 1.5",
+                    "size_mm": "1.5",
+                    "model_no_inches": "THK 116",
+                    "size_inches": "1/16”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "THK 2.0",
+                    "size_mm": "2.0",
+                    "model_no_inches": "THK 564",
+                    "size_inches": "5/64”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "THK 2.5",
+                    "size_mm": "2.5",
+                    "model_no_inches": "THK 332",
+                    "size_inches": "3/32”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "THK 3.0",
+                    "size_mm": "3.0",
+                    "model_no_inches": "THK 18",
+                    "size_inches": "1/8”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "THK 4.0",
+                    "size_mm": "4.0",
+                    "model_no_inches": "THK 532",
+                    "size_inches": "5/32”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "THK 5.0",
+                    "size_mm": "5.0",
+                    "model_no_inches": "THK 316",
+                    "size_inches": "3/16”",
+                    "qty_per_box": "100"
+                },
+                {
+                    "model_no_mm": "THK 6.0",
+                    "size_mm": "6.0",
+                    "model_no_inches": "THK 732",
+                    "size_inches": "7/32”",
+                    "qty_per_box": "50"
+                },
+                {
+                    "model_no_mm": "THK 8.0",
+                    "size_mm": "8.0",
+                    "model_no_inches": "THK 516",
+                    "size_inches": "5/16”",
+                    "qty_per_box": "50"
+                },
+                {
+                    "model_no_mm": "THK 10.0",
+                    "size_mm": "10.0",
+                    "model_no_inches": "THK 38",
+                    "size_inches": "3/8”",
+                    "qty_per_box": "25"
+                },
+                {
+                    "model_no_mm": "THK-100M (9)",
+                    "size_mm": "9 PCS. SET (1.5-10MM)",
+                    "model_no_inches": "THK-100i (9)",
+                    "size_inches": "9 PCS. SET (1/16”-3/8”)",
+                    "qty_per_box": "12 SETS"
+                },
+            ]
+        },
+        "URL": "HEX-KEYS.webp",
+        "category": "Hex keys"
+    },
+    {
+        "id": 186,
+        "modelno": "THK-200 Series (Loose Size Only)",
+        "URLname": "Extra-Long-Length-Tee-Handle-Allen-Hex-Keys-Metric-Inches",
+        "name": "Extra Long Length Tee Handle Allen/Hex Keys (Metric/Inches)",
+        "img": "THK-200.jpg",
+        "features": ["Made out of CVM alloy steel", "Ends duly faced and chamfered for easy & perfect fitment", "Brown Coated for surface protection", "Wide cellulose acetate handles for better leverage", "Long length for reaching difficult places"],
+        "application": ["For operating Allen Bolts"],
+        "technical": ["Hardened and tempered", "Sustain high torsional strength"],
+        "dataTable": {
+            "columns": [
+                {"key": "metric_mm_model_no", "label": "METRIC (MM) Model No."},
+                {"key": "model_no_inches", "label": "Model No. Inches"},
+                {"key": "a", "label": "(A)"},
+                {"key": "b", "label": "(B)"},
+                {"key": "qty_per_box", "label": "Qty Per Box"}
+            ],
+            "rows": [
+                {
+                    "metric_mm_model_no": "THK-200-2.5",
+                    "model_no_inches": "THK-200-3/32”",
+                    "a": "200MM",
+                    "b": "80MM",
+                    "qty_per_box": "50"
+                },
+                {
+                    "metric_mm_model_no": "THK-200-3.0",
+                    "model_no_inches": "THK-200-1/8”",
+                    "a": "200MM",
+                    "b": "80MM",
+                    "qty_per_box": "50"
+                },
+                {
+                    "metric_mm_model_no": "THK-200-4.0",
+                    "model_no_inches": "THK-200-5/32”",
+                    "a": "200MM",
+                    "b": "100MM",
+                    "qty_per_box": "25"
+                },
+                {
+                    "metric_mm_model_no": "THK-200-5.0",
+                    "model_no_inches": "THK-200-3/16”",
+                    "a": "200MM",
+                    "b": "150MM",
+                    "qty_per_box": "25"
+                },
+                {
+                    "metric_mm_model_no": "THK-200-6.0",
+                    "model_no_inches": "THK-200-7/32”",
+                    "a": "200MM",
+                    "b": "150MM",
+                    "qty_per_box": "25"
+                },
+                {
+                    "metric_mm_model_no": "THK-200-8.0",
+                    "model_no_inches": "THK-200-5/16”",
+                    "a": "350MM",
+                    "b": "150MM",
+                    "qty_per_box": "25"
+                },
+            ]
+        },
+        "URL": "HEX-KEYS.webp",
+        "category": "Hex keys"
+    },
+    {
+        "id": 187,
+        "modelno": "THK-300 Series (Loose Size Only)",
+        "URLname": "Extra-Length-Tee-Handle-Allen-Hex-Driver",
+        "name": "Extra Length Tee Handle Allen/Hex Driver",
+        "img": "THK-300-Series.jpg",
+        "features": ["Made out of high-grade alloy steel", "Ends duly faced and chamfered for easy & perfect fitment", "Coated for long life", "PVC sleeves for comfort operation", "Long length for reaching difficult places"],
+        "application": ["For operating Allen Bolts"],
+        "technical": ["Hardened and tempered"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "a", "label": "(A)"},
+                {"key": "b", "label": "(B)"},
+                {"key": "c", "label": "(C)"},
+                {"key": "qty_per_box", "label": "Qty Per Box"}
+            ],
+            "rows": [
+                {"model_no": "THK-300-3.0MM", "a": "300MM", "b": "ϕ 6.0MM", "c": "3.0MM HEX ", "qty_per_box": "50"},
+                {"model_no": "THK-300-4.0MM", "a": "300MM", "b": "ϕ 8.0MM", "c": "4.0MM HEX ", "qty_per_box": "50"},
+                {"model_no": "THK-300-5.0MM", "a": "300MM", "b": "ϕ 10.0MM", "c": "5.0MM HEX ", "qty_per_box": "50"},
+                {"model_no": "THK-300-6.0MM", "a": "300MM", "b": "ϕ 12.0MM", "c": "6.0MM HEX ", "qty_per_box": "50"},
+            ]
+        },
+        "URL": "HEX-KEYS.webp",
+        "category": "Hex keys"
+    },
+    {
+        "id": 188,
+        "modelno": "HD/BHD Series",
+        "URLname": "Screw-Driver-Style-Allen-Ball-Allen-Drivers",
+        "name": "Screw Driver Style Allen Ball Allen Drivers",
+        "img": "HD-BHD-Series.jpg",
+        "features": ["Made out of high-grade alloy steel", "Ball-end or Plain-end", "Coated for long life", "Ergonomic handles", "Long length for reaching difficult places"],
+        "application": ["For operating Allen Bolts"],
+        "technical": ["Hardened and tempered"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "plain_ball_Hex", "label": "Plain/Ball Hex"},
+                {"key": "hex_size", "label": "Hex Size "},
+                {"key": "projected-length", "label": "Projected Length"},
+            ],
+            "rows": [
+                {"model_no": "HD7515", "plain_ball_Hex": "Plain End", "hex_size": "1.5MM", "projected-length": "75MM"},
+                {"model_no": "BHD7515", "plain_ball_Hex": "Ball End ", "hex_size": "1.5MM", "projected-length": "75MM"},
+                {"model_no": "HD752", "plain_ball_Hex": "Plain End", "hex_size": "2.0MM", "projected-length": "75MM"},
+                {"model_no": "BHD752", "plain_ball_Hex": "Ball End ", "hex_size": "2.0MM", "projected-length": "75MM"},
+                {"model_no": "HD7525", "plain_ball_Hex": "Plain End", "hex_size": "2.5MM ", "projected-length": "75MM"},
+                {
+                    "model_no": "BHD7525",
+                    "plain_ball_Hex": "Ball End ",
+                    "hex_size": "2.5MM ",
+                    "projected-length": "75MM"
+                },
+                {
+                    "model_no": "HD1503 ",
+                    "plain_ball_Hex": "Plain End",
+                    "hex_size": "3.0MM",
+                    "projected-length": "150MM"
+                },
+                {
+                    "model_no": "BHD1503",
+                    "plain_ball_Hex": "Ball End ",
+                    "hex_size": "3.0MM",
+                    "projected-length": "150MM"
+                },
+                {
+                    "model_no": "HD1504 ",
+                    "plain_ball_Hex": "Plain End",
+                    "hex_size": "4.0MM",
+                    "projected-length": "150MM"
+                },
+                {
+                    "model_no": "BHD1504",
+                    "plain_ball_Hex": "Ball End ",
+                    "hex_size": "4.0MM",
+                    "projected-length": "150MM"
+                },
+                {"model_no": "HD1505", "plain_ball_Hex": "Plain End", "hex_size": "5.0MM", "projected-length": "150MM"},
+                {
+                    "model_no": "BHD1505",
+                    "plain_ball_Hex": "Ball End ",
+                    "hex_size": "5.0MM",
+                    "projected-length": "150MM"
+                },
+                {"model_no": "BHD315", "plain_ball_Hex": "Ball End ", "hex_size": "1.5MM", "projected-length": "300MM"},
+                {"model_no": "BHD302", "plain_ball_Hex": "Ball End ", "hex_size": "2.0MM", "projected-length": "300MM"},
+                {"model_no": "BHD325", "plain_ball_Hex": "Ball End ", "hex_size": "2.5MM", "projected-length": "300MM"},
+                {"model_no": "BHD303", "plain_ball_Hex": "Ball End ", "hex_size": "3.0MM", "projected-length": "300MM"},
+                {"model_no": "BHD304", "plain_ball_Hex": "Ball End ", "hex_size": "4.0MM", "projected-length": "300MM"},
+                {"model_no": "BHD305", "plain_ball_Hex": "Ball End ", "hex_size": "5.0MM", "projected-length": "300MM"},
+                {"model_no": "BHD306", "plain_ball_Hex": "Ball End ", "hex_size": "6.0MM", "projected-length": "300MM"},
+            ]
+        },
+        "URL": "HEX-KEYS.webp",
+        "category": "Hex keys"
+    },
+
 ];

@@ -382,6 +382,35 @@ const ProductDetails = () => {
                                     </>
                                 )}
                             </div>
+
+                            {product.dataTable && (
+                                <div className="mt-4">
+                                    <h3 className="text-xl font-semibold mb-2">Specifications</h3>
+                                    <table className="w-full border-collapse border border-gray-300">
+                                        <thead>
+                                        <tr className="bg-gray-200">
+                                            {product.dataTable.columns.map((col) => (
+                                                <th key={col.key}
+                                                    className="border border-gray-300 px-4 py-2 text-left">
+                                                    {col.label}
+                                                </th>
+                                            ))}
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {product.dataTable.rows.map((row, rowIndex) => (
+                                            <tr key={rowIndex} className="border border-gray-300">
+                                                {product.dataTable.columns.map((col) => (
+                                                    <td key={col.key} className="border border-gray-300 px-4 py-2">
+                                                        {row[col.key]}
+                                                    </td>
+                                                ))}
+                                            </tr>
+                                        ))}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            )}
                         </div>
                     </div>
                     <div className="flex flex-wrap sm:justify-evenly justify-center">
