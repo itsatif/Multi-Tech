@@ -217,7 +217,7 @@ export const Products = [
         category: "Screw Driver",
         finish: "Chrome Plated. Brown Oxide coated.",
         finishTitle: "Finish: ",
-        features: "1.2 IN ONE SCREW DRIVER: PHILIP END PH-0 & FLAT END 4mm.",
+        features: "1.2 IN ONE Screw Driver: PHILIP END PH-0 & FLAT END 4mm.",
         features1: "2.Made of hexagon high-grade alloy steel.",
         features2: "3.Duly hardened and tempered.",
         features3:
@@ -2436,5 +2436,570 @@ export const Products = [
         "URL": "HEX-KEYS.webp",
         "category": "Hex keys"
     },
-
+    {
+        "id": 196,
+        "modelno": "",
+        "URLname": "insulated-un-insulated-2-in-1-reversible-screw-driver-with-hexagon-rod-and-extra-hard-tips-6mm-hex",
+        "name": "Insulated / Un-Insulated 2-in-1 Reversible Screw Driver with Hexagon Rod & Extra Hard Tips (6mm Hex) ",
+        "img": "R-6100.jpg",
+        "features": ["Shank made out of High-grade alloy steel", "2-in-1 screw driver ", "Tip coated for long life", "Hexagon shaft screw driver shank for turning with a spanner for extra torque to open extra tight screws", "Available in projected lengths of 100mm, 150mm, 200mm, 250mm & 300mm"],
+        "application": ["For loosening and tightening Phillip and Slotted head screws. "],
+        "technical": ["Hardened and tempered ", "Head PH-2 and S-6 in reversible configuration", "Chrome plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "R 6100 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "R 6100i ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "R 6150",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "R 6150i",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "R 6200",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "200 mm"
+                },
+                {
+                    "model_no": "R 6200i",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "200 mm"
+                },
+                {
+                    "model_no": "R 6250",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "250 mm"
+                },
+                {
+                    "model_no": "R 6250i",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "250 mm"
+                },
+                {
+                    "model_no": "R 6300 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "300 mm"
+                },
+            ]
+        },
+        "URL": "SCREW-DRIVER .webp",
+        "category": "Screw Driver "
+    },
+    {
+        "id": 197,
+        "modelno": "",
+        "URLname": "insulated-un-insulated-2-in-1-reversible-t-handle-screw-driver-with-hexagon-rod-and-extra-hard-tips",
+        "name": "Insulated / Un-Insulated 2-in-1 Reversible T-Handle Screw Driver with Hexagon Rod & Extra Hard Tips",
+        "img": "TR-6150.jpg",
+        "features": ["Shank made out of High-grade alloy steel ", "2-in-1 screw driver – PH-2 & S-6 ", "Tip coated for long life", "T-Handle made of transparent high-grade tough and durable plastic", "T-Driver configuration allows application of high torque on screw head", "Available in projected lengths of 100mm, 150mm, 200mm, 250mm & 300mm", "Available in various head configuration – Phillip, Minus (flat), Torx, Allen, Ball Allen"],
+        "application": ["For loosening and tightening Phillip and Slotted head screws.", "Ideal for tightening self-tapping screws in wood/metal "],
+        "technical": ["Hardened and tempered", "Head PH-2 and S-6 in reversible configuration", "Chrome-plated finish and also colour coded three tone finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "TR 6150 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "TR 6150i ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "TR 6250 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "250 mm"
+                },
+                {
+                    "model_no": "TR 6250i",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "250 mm"
+                },
+            ]
+        },
+        "URL": "SCREW-DRIVER .webp",
+        "category": "Screw Driver "
+    },
+    {
+        "id": 198,
+        "modelno": "TRB- Series",
+        "URLname": "4-in-1-tee-driver-reversible-screw-driver-with-hexagon-rod-and-extra-hard-tips ",
+        "name": " 4-in-1 (Tee-Driver) Reversible Screw Driver with Hexagon Rod and Extra Hard Tips ",
+        "img": "TRB-6150.jpg",
+        "features": ["Shank made out of high-grade alloy steel ", "Unique design 4-in-1 screw driver in Tee type orientation with two ends PH-2 and S-6 ", "Tip coated for long life", "Hexagonal shaft screw driver shank for turning with a spanner, to open extra tight screws "],
+        "application": ["For loosening and tightening Phillip and Slotted head screws", "Ideal for use in high torque applications available in all standard projected lengths "],
+        "technical": ["Hardened and tempered", "Head PH-2 and S-6 in reversible configuration", "Chrome-plated finish "],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "TRB 6150 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "TRB 6250 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "250 mm"
+                },
+            ]
+        },
+        "URL": "SCREW-DRIVER .webp",
+        "category": "Screw Driver "
+    },
+    {
+        "id": 199,
+        "modelno": "TST- Series",
+        "URLname": "2-in-1-reversible-screw-driver-with-neon-bulb-tester-and-electrical-insulated-rods-6mm-hex",
+        "name": "2-in-1 Reversible Screw Driver with Neon Bulb Tester and Electrical Insulated Rods (6mm Hex)",
+        "img": "THK-100.jpg",
+        "features": ["Shank made out of high-grade alloy steel ", "Handle made out of Angel-blue colour CA", "Screw driver handle with neon bulb tester for voltage detection up-to 500V", "Tip coated for long life", "Electrically insulated for safety against electric shocks "],
+        "application": ["For loosening and tightening Phillip and Slotted head screws", "Voltage detection"],
+        "technical": ["Hardened and tempered", "Head PH-2 and S-6 in reversible configuration", "Chrome-plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "TST-6100(i)",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "TST-6150(i)",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "TST-6250(i)",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "250 mm"
+                },
+            ]
+        },
+        "URL": "SCREW-DRIVER .webp",
+        "category": "Screw Driver "
+    },
+    {
+        "id": 201,
+        "modelno": "DG- Series",
+        "URLname": "double-grip-anti-slip-&-cushioned-2-in-1-reversible-screw-driver-with-hexagon-rod-and-extra-hard-tips-6mm-hex",
+        "name": "Double Grip Anti-slip & Cushioned 2-in-1 Reversible Screw Driver with Hexagon Rod & Extra Hard Tips (6mm Hex) ",
+        "img": "DG-Series.jpg",
+        "features": ["First time in India", "Shank made out of high-grade alloy steel ", "Double-Grip series 2-in-1 screw driver handle is made of hard-grade transparent engineering plastic and moulded over with anti-slip and cushion grade Elastomer for good comfort and non-slip grip. ", "Tip coated for long life ", "Hexagonal shaft screw driver shank for turning with a spanner, to open extra tight screws", "Available in both electrical insulated and un-insulated version", "Available in projected lengths of 100mm, 150mm, 200mm, 250mm & 300mm "],
+        "application": ["For loosening and tightening Phillip and Slotted head screws"],
+        "technical": [" Hardened and tempered", "Head PH-2 and S-6 in reversible configuration", "Chrome-plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "DG 6100",
+                    "tip_size": "PH-2/S-6",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "DG 6150  ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "DG 6200 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "200 mm"
+                },
+                {
+                    "model_no": "DG 6250 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "250 mm"
+                },
+                {
+                    "model_no": "DG 6300 ",
+                    "tip_size": "PH-2/S-6 ",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "300 mm"
+                },
+            ]
+        },
+        "URL": "SCREW-DRIVER .webp",
+        "category": "Screw Driver "
+    },
+    {
+        "id": 202,
+        "modelno": "SDK-600",
+        "URLname": "6-in-1-multibit-reversible-screw-driver-set-6mm-Hex",
+        "name": "6-in-1 Multibit Reversible Screw Driver Set (6mm Hex)",
+        "img": "SDK-600.jpg",
+        "features": ["6 assorted screw driver bits made out of high-grade alloy steel", "Tip coated for long life", "Handle made of tough engineering plastic", "Quick change metallic collet embedded within handle for easy and fast reversing of screw driver bit ", "Plastic rack / jacket to hold the set together"],
+        "application": ["For loosening and tightening Phillip and Slotted head screws.", "Useful for Engineers/Professionals/Hobbyists"],
+        "technical": ["Hardened and tempered", "Head PH-2 and S-6, PH-1 and S-5, PH-0 and S-3 in reversible configuration", " Chrome plated finish"],
+        "URL": "SCREW-DRIVER .webp",
+        "category": "Screw Driver "
+    },
+    {
+        "id": 203,
+        "modelno": "SDK-600(i)",
+        "URLname": "6-in-1-multibit-insulated-reversible-screw-driver-set-with-voltage-tester-Handle-6mm-Hex",
+        "name": "6-in-1 Multibit Insulated Reversible Screw Driver Set with Voltage Tester Handle (6mm Hex)",
+        "img": "SDK-600i.jpg",
+        "features": ["3 assorted 2-in-1 configurations screw driver bits with electrical insulation ", "Screw driver bits made out of high-grade alloy steel ", "Tip coated for long life", "Handle with tester module to detect electrical voltage ", "Handle made of Angel-blue colour tough engineering plastic ", "Quick change metallic collet embedded within handle for easy and fast reversing of screw driver bit ", "Plastic rack / jacket to hold the set together "],
+        "application": ["For loosening and tightening Phillip and Slotted head screws.", "Useful for Engineers/Professionals/Hobbyists"],
+        "technical": ["Hardened and tempered ", "Head PH-2 and S-6, PH-1 and S-5, PH-0 and S-3 in reversible configuration", "Chrome plated finish"],
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 204,
+        "modelno": "SR-6100",
+        "URLname": "s-type-2-in-1-screw-driver-6mm-Hex",
+        "name": "S-Type 2-in-1 Screw Driver (6mm Hex)",
+        "img": "SR-6100.jpg",
+        "features": ["Unique design 2-in-1 screw driver in S-type configuration ", "Screw driver bits made out of high-grade alloy steel", "Tip coated for long life", "Better leverage due to long length of shank"],
+        "application": ["For loosening and tightening Phillip and Slotted head screws.", "Ideal for use in extremely short spaces "],
+        "technical": ["Hardened and tempered", "Head PH-2 and S-6 in reversible configuration", "Chrome plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "SR-6100",
+                    "tip_size": "PH-2/S-6",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+            ]
+        },
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 205,
+        "modelno": "",
+        "URLname": "2-in-1-reversible-screw-driver-with-hexagon-rod-and-extra-hard-tips-5mm-hex",
+        "name": "2-in-1 Reversible Screw Driver with Hexagon Rod & Extra Hard Tips (5mm Hex)",
+        "img": "R-5100.jpg",
+        "features": ["Shank made out of high-grade alloy steel ", "Tip coated for long life", "Hexagon shaft screw driver shank for turning with a spanner for extra torque to open extra tight screws", "Available in projected lengths of 100mm and 150mm "],
+        "application": ["For loosening and tightening Phillip and Slotted head screws. "],
+        "technical": ["Hardened and tempered", "Head PH-1 and S-5 in reversible configuration", "Chrome plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "R 5100 ",
+                    "tip_size": "PH-1/S-5",
+                    "shank_size": "Hexagon 5mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "R 5100i",
+                    "tip_size": "PH-1/S-5",
+                    "shank_size": "Hexagon 5mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+            ]
+        },
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 206,
+        "modelno": "",
+        "URLname": "2-in-1-reversible-screw-driver-with-hexagon-rod-and-extra-hard-hips-4mm-hex)",
+        "name": "2-in-1 Reversible Screw Driver with Hexagon Rod & Extra Hard Tips (4mm Hex)",
+        "img": "R-4075.jpg",
+        "features": ["Shank made out of high-grade alloy steel ", "Tip coated for long life", "Hexagon shaft screw driver shank for turning with a spanner for extra torque to open extra tight screws", " Available in projected length of 75mm "],
+        "application": ["For loosening and tightening Phillip and Slotted head screws. "],
+        "technical": [" Hardened and tempered", "Head PH-0 and S-3 in reversible configuration", "Chrome plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "R 4075 ",
+                    "tip_size": "PH-0/S-3",
+                    "shank_size": "Hexagon 4mm",
+                    "projected_length_of_bit": "75 mm"
+                },
+            ]
+        },
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 207,
+        "modelno": "",
+        "URLname": "double-side-torx-screw-driver-in-hexagon-rod-and-extra-hard-tips",
+        "name": "Double Side TORX Screw Driver in Hexagon Rod and Extra Hard Tips",
+        "img": "TORX-SCREW-DRIVER.jpg",
+        "features": ["Shank made out of high-grade alloy steel", " Tip coated for long life", "Two Torx heads same tip size in one screw driver tool", "Available in projected lengths of 75mm and 100mm "],
+        "application": ["For loosening and tightening Torx screws."],
+        "technical": ["Hardened and tempered ", "Torx heads machined as per International Standard", "Chrome plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size_both-ends", "label": "Tip Size Both Ends "},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "2xT6x75  ",
+                    "tip_size_both-ends": "T6xT6 ",
+                    "shank_size": "4mm",
+                    "projected_length_of_bit": "74 mm"
+                },
+                {
+                    "model_no": "2xT8x75  ",
+                    "tip_size_both-ends": "T8xT8",
+                    "shank_size": "4mm",
+                    "projected_length_of_bit": "75 mm"
+                },
+                {
+                    "model_no": "2xT8x150  ",
+                    "tip_size_both-ends": "T8xT8 ",
+                    "shank_size": "4mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "2xT10x75 ",
+                    "tip_size_both-ends": "T10xT10",
+                    "shank_size": " 4mm",
+                    "projected_length_of_bit": "75 mm"
+                },
+                {
+                    "model_no": "2xT10x150 ",
+                    "tip_size_both-ends": "T10xT10",
+                    "shank_size": "4mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {"model_no": " ", "tip_size_both-ends": "", "shank_size": "", "projected_length_of_bit": ""},
+                {
+                    "model_no": "2xT15x100 ",
+                    "tip_size_both-ends": "T15xT15",
+                    "shank_size": "5mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "2xT15x150 ",
+                    "tip_size_both-ends": "T15xT15",
+                    "shank_size": "5mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {"model_no": " ", "tip_size_both-ends": "", "shank_size": "", "projected_length_of_bit": ""},
+                {
+                    "model_no": "2xT20x100  ",
+                    "tip_size_both-ends": "T20xT20",
+                    "shank_size": "6mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "2xT20x150 ",
+                    "tip_size_both-ends": "T20xT20",
+                    "shank_size": "6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "2xT25x100  ",
+                    "tip_size_both-ends": "T25xT25 ",
+                    "shank_size": "6mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "2xT25x150  ",
+                    "tip_size_both-ends": "T25xT25 ",
+                    "shank_size": "6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+                {
+                    "model_no": "2xT30x100 ",
+                    "tip_size_both-ends": "T30xT30 ",
+                    "shank_size": "6mm",
+                    "projected_length_of_bit": "100 mm"
+                },
+                {
+                    "model_no": "2xT30x150 ",
+                    "tip_size_both-ends": "T30xT30 ",
+                    "shank_size": "6mm",
+                    "projected_length_of_bit": "150 mm"
+                },
+            ]
+        },
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 208,
+        "modelno": "STB-110 ",
+        "URLname": "2-in-1-reversible-stubby-screw-driver",
+        "name": "2-in-1 Reversible Stubby Screw Driver",
+        "img": "STB-110.jpg",
+        "features": ["Shank made out of high-grade alloy steel", "Tip coated for long life", "Stubby short screw driver handle made out of transparent engineering plastic", "Quick change metallic collet embedded within handle for fast and easy reversing of screw driver bit.", "Available in projected length of 35mm "],
+        "application": ["For loosening and tightening Phillip and Slotted head screws."],
+        "technical": ["Hardened and tempered", "Head PH-2 and S-6 in reversible configuration", "Chrome plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "STB-110 ",
+                    "tip_size": "PH-2/S-6",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "35 mm"
+                },
+            ]
+        },
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 209,
+        "modelno": "TSTB-220",
+        "URLname": "4-in-1-tee-oriented-stubby-screw-driver",
+        "name": "4-in-1 Tee Oriented Stubby Screw Driver",
+        "img": "TSTB-220.jpg",
+        "features": ["Tee orientation in Stubby screw driver ", "Four screw driver heads in one tool", "Two-way reversible screw driver (fixed)", "Two-way reversible screw driver (reversible)", "Shank made out of high-grade alloy steel", "Tip coated for long life", "Tee orientation offers better leverage while operating by application of high torque, thereby taking care of the limitation of small handle in loosen/fasten tight screws ", "Stubby short screw driver handle made out of transparent engineering plastic ", "Quick change metallic collet embedded within handle for fast and easy reversing of screw driver bit.", "Available in projected length of 35mm "],
+        "application": ["For loosening and tightening Phillip and Slotted head screws."],
+        "technical": ["Hardened and tempered ", "Head PH-2 and S-6 in fixed and reversible configuration", "Chrome plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "shank_size", "label": "Shank Size"},
+                {"key": "projected_length_of_bit", "label": "Projected Length of Bit"},
+            ],
+            "rows": [
+                {
+                    "model_no": "TSTB-110 ",
+                    "tip_size": "PH-2/S-6",
+                    "shank_size": "Hexagon 6mm",
+                    "projected_length_of_bit": "35 mm"
+                },
+            ]
+        },
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 210,
+        "modelno": "STB-330",
+        "URLname": "6-in-1-multibit-stubby-reversible-screw-driver-set",
+        "name": "6-in-1 Multibit Stubby Reversible Screw Driver Set",
+        "img": "STB-330.jpg",
+        "features": ["6 Assorted screw driver bit made out of high-grade alloy steel", "Tip coated for long life", "Stubby short screw driver handle made out of transparent engineering plastic ", "Quick change metallic collet embedded within handle for fast and easy reversing of screw driver bit.", "Plastic rack/jacket to hold the tool set together"],
+        "application": ["For loosening and tightening Phillip and Slotted head screws.", "Useful for Engineers/Professionals/Hobbyists "],
+        "technical": ["Hardened and tempered", " Head PH-2 and S-6, PH-1 and S-5, PH-0 and S-3 in reversible configuration", "Chrome plated finish"],
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 211,
+        "modelno": "MT-100",
+        "URLname": "pocket-line-voltage-detector-tester",
+        "name": "Pocket Line (Voltage Detector) Tester",
+        "img": "MT-100.jpg",
+        "features": ["Shank made out of 3mm hexagon high-grade alloy steel ", "Handle made out of high-grade transparent engineering plastic for good transparency, toughness and high electrical insulation ", "Unique neon bulb tester modular assemble concept", "High quality brass nut for good electrical conductivity for earthing that helps in good neon-bulb brightness", "Long and spline design for better grip"],
+        "application": ["For detecting Voltage"],
+        "technical": ["Hardened and tempered ", "Tip: 3mm ", "Shank chrome plated finish"],
+        "dataTable": {
+            "columns": [
+                {"key": "model_no", "label": "Model No."},
+                {"key": "tip_size", "label": "Tip Size"},
+                {"key": "voltage_detection-range ", "label": "Voltage Detection Range "},
+            ],
+            "rows": [
+                {"model_no": "MT-100 ", "tip_size": "3mm Hex X 0.5mm", "shank_size": "0-500 Volt "},
+            ]
+        },
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
+    {
+        "id": 212,
+        "modelno": "SDK-777iC",
+        "URLname": "6-multi-colour-insulated-screw-driver-bits-plus-1-poker-plus-handle-with-voltage-detector",
+        "name": "6 Multi-colour Insulated Screw Driver Bits + 1 Poker + Handle with Voltage Detector",
+        "img": "SDK-777-IC.jpg",
+        "features": ["Screw driver kit made of transparent plastic box ", "Transparent handle made out of engineering plastic with tester / voltage detector", "7 Screw driver bits (6 multi-colour insulated screw driver bits + 1 poker)", "Multi-colour insulated bits for quick access to respective screw driver bit", "Screw driver bits are moulded on with sleeves for electrical insulation "],
+        "application": ["For tightening and loosening screws, voltage detection, make holes with poker on wall "],
+        "technical": ["Hardened and tempered ", "Screw driver bits - chrome plated finish"],
+        "URL": "screwdriverbanner.webp",
+        "category": "Screw Driver"
+    },
 ];
