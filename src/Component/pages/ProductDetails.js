@@ -68,13 +68,13 @@ const ProductDetails = () => {
                             {product?.nameSpace && (
                                 <span
                                     className="block mt-2 font-kepler text-xl font-semibold leading-tight text-black hover:underline mb-1"
-                                    style={{color: "#767171"}}
+                                    style={{color: "#767171", borderBottom: "none"}}
                                 >
         {product.nameSpace}
     </span>
                             )}
 
-                            
+
                             <div className="my-[1px]">
                                 <div className="my-[1px]">
                                     {" "}
